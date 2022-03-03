@@ -10,8 +10,6 @@ int res = 1000000000;
 
 void xuat()
 {
-    freopen("CUNGDIEN.INP", "r", stdin);
-    freopen("CUNGDIEN.OUT", "w", stdout);
     int v = 0;
     for (int i = 1; i <= n; i += 1)
     {
@@ -46,6 +44,8 @@ void solve(int k)
 
 int main()
 {
+    freopen("CUNGDIEN.INP", "r", stdin);
+    freopen("CUNGDIEN.OUT", "w", stdout);
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
